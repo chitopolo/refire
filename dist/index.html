@@ -4,9 +4,17 @@
     <meta name="viewport" content="width=900, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>React Webinar</title>
+    <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
 </head>
 <body>
+   <!--Core de nuestra app-->
     <div id="main"/> 
-    <script src="./bundle.js"></script>
+    <!--Fin del core de nuestra app-->
+    <script>
+        ReactDOM.render(
+            React.createElement('div', null,   React.createElement('h1', null, "Hola Mundo!")), 
+            document.getElementById('main'));
+    </script>
 </body>
 </html>

@@ -2,6 +2,10 @@
   "name": "Refire",
   "version": "1.0.0",
   "description": "Webinar React Firebase and node",
+   "scripts": {
+    "start": "node server.js",
+    "watch": "webpack --watch"
+  },
   "main": "index.js",
   "repository": "git@github.com:chitopolo/refire.git",
   "author": "Rene J Polo",

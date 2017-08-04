@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MiTitulo = props => {
-    console.log("props:", props)
+  console.log("props:", props)
   const style = { color: props.color };
   return (
     <div>

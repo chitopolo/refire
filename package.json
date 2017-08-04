@@ -2,7 +2,7 @@
   "name": "Refire",
   "version": "1.0.0",
   "description": "Webinar React Firebase and node",
-   "scripts": {
+  "scripts": {
     "start": "node server.js",
     "watch": "webpack --watch"
   },
@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
@@ -21,6 +22,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "webpack": "^3.3.0"
   }

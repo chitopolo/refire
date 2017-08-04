@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MiTitulo from './MiTitulo';
 
-const MiPrimerComponente = () => {
+var MiPrimerComponente = function () {  
   return (
-    <div>
-      <MiTitulo titulo="Los props son excelentes!" color="rebeccapurple" />
-      <MiTitulo titulo="Usa props en todas partes!" color="mediumaquamarine" />
-      <MiTitulo titulo="Los props son los mejores" color="peru" />
-    </div>
+    React.createElement('div', null,
+      React.createElement(MiTitulo, {titulo: 'Spiderman', color:"rebeccapurple"}),
+      React.createElement(MiTitulo, {titulo: 'Game of Thrones', color:'mediumaquamarine'}),
+      React.createElement(MiTitulo, {titulo: 'Stranger Things', color:'peru'})
+    )
   );
 };
 
-ReactDOM.render(<MiPrimerComponente />, document.getElementById('main'));
+
+ReactDOM.render(React.createElement(MiPrimerComponente, null), document.getElementById('main'))

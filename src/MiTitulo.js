@@ -1,14 +1,10 @@
 import React from 'react';
 
-const MiTitulo = props => {
-    console.log("props:", props)
-  const style = { color: props.color };
+var MiTitulo = function (props) {  
   return (
-    <div>
-      <h1 style={style}>
-        {props.titulo}
-      </h1>
-    </div>
+    React.createElement('div', null,
+      React.createElement('h1', {style: {color: props.color}}, props.titulo)
+    )
   );
 };
 

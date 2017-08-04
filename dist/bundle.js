@@ -9774,7 +9774,7 @@ var _MiTitulo2 = _interopRequireDefault(_MiTitulo);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MiPrimerComponente = function MiPrimerComponente() {
-  return _react2.default.createElement('div', null, _react2.default.createElement(_MiTitulo2.default, { titulo: 'Spiderman', color: "rebeccapurple" }), _react2.default.createElement(_MiTitulo2.default, { titulo: 'Game of Thrones', color: 'mediumaquamarine' }), _react2.default.createElement(_MiTitulo2.default, { titulo: 'Stranger Things', color: 'peru' }));
+  return _react2.default.createElement('div', null, _react2.default.createElement(_MiTitulo2.default, { titulo: 'Los props son excelentes!', color: "rebeccapurple" }), _react2.default.createElement(_MiTitulo2.default, { titulo: 'Usa props en todas partes!', color: 'mediumaquamarine' }), _react2.default.createElement(_MiTitulo2.default, { titulo: 'Stranger Things', color: 'peru' }), _react2.default.createElement(_MiTitulo2.default, { titulo: 'Los simpsons', color: 'peru' }), _react2.default.createElement(_MiTitulo2.default, { titulo: 'spiderman', color: 'peru' }));
 };
 
 _reactDom2.default.render(_react2.default.createElement(MiPrimerComponente, null), document.getElementById('main'));

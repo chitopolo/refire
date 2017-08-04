@@ -4,9 +4,10 @@ import MiTitulo from './MiTitulo';
 
 var MiPrimerComponente = function () {  
   return (
+
     React.createElement('div', null,
-      React.createElement(MiTitulo, {titulo: 'Spiderman', color:"rebeccapurple"}),
-      React.createElement(MiTitulo, {titulo: 'Game of Thrones', color:'mediumaquamarine'}),
+      React.createElement(MiTitulo, {titulo: 'Los props son excelentes!', color:"rebeccapurple"}),
+      React.createElement(MiTitulo, {titulo: 'Usa props en todas partes!', color:'mediumaquamarine'}),
       React.createElement(MiTitulo, {titulo: 'Stranger Things', color:'peru'})
     )
   );

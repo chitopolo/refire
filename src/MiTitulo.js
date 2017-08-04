@@ -46,11 +46,10 @@ class MiTitulo extends Component {
 
 
   render () {
-    const style = { color: this.props.color };
     return (
       <div>
-      <h1 style={style}>
-        {this.props.titulo}  <Button onClick={this.plusOne} bsStyle="primary"><Glyphicon glyph="thumbs-up"/></Button>{this.state.number}
+      <h1>
+        Titulo 123 <Button onClick={this.plusOne} bsStyle="primary"><Glyphicon glyph="thumbs-up"/></Button>{this.state.number}
       </h1>
     </div>
     )
